@@ -1,0 +1,15 @@
+[
+    {
+      "AccNo": 1,
+      "AccHolderName": "John Doe",
+      "AccType": "Savings",
+      "balance": 1000
+    },
+    {
+      "AccNo": 2,
+      "AccHolderName": "Jane Doe",
+      "AccType": "Checking",
+      "balance": 500
+    }
+  ]
+  mongoimport --db Bank_Customer --collection customers --file customers.json --jsonArray
